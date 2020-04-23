@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Web Alarm</title>
+        <meta http-equiv="X-UA-sm2-bar-uitible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="icon" sizes="57x57" href="img/fav.png">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+         <!-- External Libraries -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/animation.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    </head>
+    <body onload="startTime()">
+            <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                      <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="page1.html">Page1</a></li>
+                        <li><a href="page2.html">Page 2</a></li>
+                        <li><a href="page3.html">Page 3</a></li>
+                      </ul>
+                    </div>
+            </nav>
+            <div class="col-lg-3">
+                    <div class="container-fluid container alarmContainer">
+                        <form class="balanceForm alarmForm">
+                            <h1>Addresses (ETH)</h1>
+                            <h5>If you like our project, please award some ETH :)</h5>
+                            <table class="table balanceTable">
+                                <thead>
+                                    <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Balance</th>
+                                    <th scope="col">Address</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                    <td>Estella</td>
+                                    <td id="EstellaBalance" ></td>
+                                    <td id="EstellaAddr" class="address" name="0x0f5Cb637B39d6D7c60497F51a263b5D6de17B343"></td>
+                                    </tr>
+                                    <tr>
+                                    <td>Shermeen</td>
+                                    <td id="ShermeenBalance" ></td>
+                                    <td id="ShermeenAddr" class="address" name="0xCf7eec9A403E75B7aC218F7bD4C9eA5b76961534"></td>
+                                    </tr>
+                                    <tr>
+                                    <td>Richard</td>
+                                    <td id="RichardBalance" ></td>
+                                    <td id="RichardAddr" class="address" name="0x4308C4533006420aCf64430442caa4653D2F2355"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+        <div class="row">
+        </div>
+
+        <footer class="footer">
+            <p>Copyright &copy 2019 Shermeen Kazi, Estella Yeung, Ziming Qin</p>
+        </footer>
+        <!-- External Libraries -->
+        <script type="text/javascript" src="js/jquery-3-3-1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

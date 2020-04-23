@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Profile</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+<body>
+  <div class="container">    
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="about" target="external" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a  href="login" target="external" class="nav-link login-btn">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="user" target="external" class="nav-link">User Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a href="dashboard" target="external" class="nav-link">Dashboard</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="row">
+          <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
+              <img src="https://www.svgimages.com/svg-image/s5/man-passportsize-silhouette-icon-256x256.png" alt="stack photo" class="img">
+          </div>
+          <div class="col-md-8 col-xs-12 col-sm-6 col-lg-8">
+              <div class="container" style="border-bottom:1px solid black">
+                <h2 id="name"></h2>
+              </div>
+                <hr>
+              <ul class="container details">
+                <li><p id="phone"><span class="glyphicon glyphicon-earphone one" style="width:50px;"></span>+91 90000 00000</p></li>
+                <li><p id="email"><span class="glyphicon glyphicon-envelope one" style="width:50px;"></span>somerandom@email.com</p></li>
+                <li><p id="ambition"><span class="glyphicon glyphicon-map-marker one" style="width:50px;"></span>Specialty: NodeJS, JavaScript DOM, Solidity</p></li>
+              </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/jquery-3-3-1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</html>
